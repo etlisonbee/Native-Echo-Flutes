@@ -12,3 +12,119 @@
  *= require_self
  *= require_tree .
 */
+
+body#default.two-col {
+    background: #FFF
+
+    background-image: -ms-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444444), color-stop(1, #FFFFFF));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Proposed W3C Markup */
+    background-image: linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    #background: #ffffff url(assets/store/assets/body-back.png);
+    #background-repeat: repeat-x;
+}
+
+body#login.one-col {
+    background: #FFF
+
+    background-image: -ms-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444444), color-stop(1, #FFFFFF));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top bottom, #444444 0%, #FFFFFF 100%);
+
+    /* Proposed W3C Markup */
+    background-image: linear-gradient(top bottom, #888888 0%, #FFFFFF 100%);
+
+    #background: #ffffff url(assets/store/assets/body-back.png);
+    #background-repeat: repeat-x;
+}
+
+header#header.row {
+    position: relative;
+    color:    #999999;
+    clear:    both;
+}
+
+ul#nav-bar.inline li#link-to-login {
+    color: #FFFFFF;
+    display: block;
+}
+ul#nav-bar.inline li#link-to-login a {
+ color: #FFFFFF /*The color of the link*/
+}
+ul#nav-bar.inline li#link-to-login a:hover {
+ color: #66CCFF /*The color of the mouseover or 'hover' link*/
+}
+
+ul#nav-bar.inline li#home-link {
+    color: #FFFFFF;
+    display: block;
+}
+ul#nav-bar.inline li#home-link a {
+ color: #FFFFFF /*The color of the link*/
+}
+ul#nav-bar.inline li#home-link a:hover {
+ color: #66CCFF /*The color of the mouseover or 'hover' link*/
+}
+
+ul#nav-bar.inline li#link-to-cart {
+    color: #FFFFFF;
+    display: block;
+}
+ul#nav-bar.inline li#link-to-cart a {
+ color: #FFFFFF /*The color of the link*/
+}
+ul#nav-bar.inline li#link-to-cart a:hover {
+ color: #66CCFF /*The color of the mouseover or 'hover' link*/
+}
+
+div#wrapper.container {
+    background: #FFF
+
+    background-image: -ms-linear-gradient(top bottom, #66CCFF 0%, #FFFFFF 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top bottom, #66CCFF 0%, #FFFFFF 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top bottom, #66CCFF 0%, #FFFFFF 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #66CCFF), color-stop(1, #FFFFFF));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top bottom, #66CCFF 0%, #FFFFFF 100%);
+
+    /* Proposed W3C Markup */
+    background-image: linear-gradient(top bottom, #66CCFF 0%, #FFFFFF 100%);
+
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+
+    #background: #ffffff url(assets/store/assets/body-back.png);
+    #background-repeat: repeat-x;
+}
+

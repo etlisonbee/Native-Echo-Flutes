@@ -8,6 +8,10 @@ gem 'rails', '3.1.3'
 gem 'pg'
 gem 'execjs'
 gem 'therubyracer'
+gem 'spree_usa_epay'
+gem 'spree_skrill'
+gem 'spree', '1.0.1'
+gem 'spree_blue_theme', '0.2.0', :git => 'git://github.com/spree/spree_blue_theme.git'
 
 
 # Gems used only for assets and not required
@@ -36,6 +40,3 @@ group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
 end
-gem 'spree'
-gem 'spree_usa_epay'
-gem 'spree_skrill'
